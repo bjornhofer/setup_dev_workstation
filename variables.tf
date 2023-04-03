@@ -8,5 +8,5 @@ locals {
 
 variable "management" {
   type = string
-  default = "mangement"
+  default = "management"
 }
