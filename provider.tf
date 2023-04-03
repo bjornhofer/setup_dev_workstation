@@ -6,10 +6,10 @@ terraform {
         }
     }
     backend "azurerm" {
-        resource_group_name  = "mangement"
-        storage_account_name = "terraformstatebjh01"
-        container_name       = "remotedev"
-        key                  = "terraform.tfstate"
+        resource_group_name  = "management"
+        storage_account_name = "terraformstatebjh00"
+        container_name       = "terraform"
+        key                  = "remotedev.tfstate"
     }
 }
 provider "azurerm" {

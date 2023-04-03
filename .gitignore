@@ -2,3 +2,4 @@ login.cmd
 settings.yaml
 *.terraform
 .terraform.lock.hcl
+settings.json
